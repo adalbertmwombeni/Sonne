@@ -53,7 +53,7 @@ def main():
     rpn_score_threshold = 0.1
     avod_score_threshold = 0.1
 
-    gt_classes = ['Car']
+    gt_classes = ['Pedestrian']
     # gt_classes = ['Pedestrian', 'Cyclist']
 
     # Overwrite this to select a specific checkpoint
